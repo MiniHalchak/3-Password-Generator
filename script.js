@@ -36,7 +36,7 @@ function generatePassword() {
      if (confirm("would you like your password to contain numbers?")) {
     // asking if you want your password to contain lowercase letters
       if (confirm("would you like your password to contain lowercase letters?")) {
-
+    // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.lowercase.concat(characters.uppercase,characters.numbers,characters.specal)
           for (let x = 0; x < nunberofcharacters; x++) {
