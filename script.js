@@ -44,6 +44,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -54,6 +55,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -67,6 +69,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -77,6 +80,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -93,6 +97,7 @@ function generatePassword() {
         // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -103,6 +108,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -116,6 +122,7 @@ function generatePassword() {
         // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -126,6 +133,7 @@ function generatePassword() {
         // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -145,6 +153,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -155,6 +164,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -168,6 +178,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -178,6 +189,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -194,6 +206,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -204,6 +217,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
@@ -217,6 +231,7 @@ function generatePassword() {
           // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
+            // add one character to the password for each loop
             randompassword.unshift(desiredselection[random]);
           };
           // sends new passcode to the html to display
