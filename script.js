@@ -34,7 +34,7 @@ function generatePassword() {
     if (confirm("would you like your password to contain specal characters?")) {
     // asking if you want your password to contain numbers
      if (confirm("would you like your password to contain numbers?")) {
-
+    // asking if you want your password to contain lowercase letters
       if (confirm("would you like your password to contain lowercase letters?")) {
 
         if (confirm("would you like your password to contain uppercase letters?")) {
