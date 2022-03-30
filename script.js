@@ -27,8 +27,10 @@ function generatePassword() {
   if (nunberofcharacters < 8 || nunberofcharacters > 128) {
     // if not the chain stops at this message
     alert("Password Must contain at least 8 and no more than 128 characters");
+    // if it is within that range it will continue down
   } else{ 
     var randompassword = [];
+    // asking if you want specal characters
     if (confirm("would you like your password to contain specal characters?")) {
     
      if (confirm("would you like your password to contain numbers?")) {
