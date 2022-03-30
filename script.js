@@ -30,9 +30,9 @@ function generatePassword() {
     // if it is within that range it will continue down
   } else{ 
     var randompassword = [];
-    // asking if you want specal characters
+    // asking if you want your password to contain specal characters
     if (confirm("would you like your password to contain specal characters?")) {
-    
+    // asking if you want your password to contain numbers
      if (confirm("would you like your password to contain numbers?")) {
 
       if (confirm("would you like your password to contain lowercase letters?")) {
