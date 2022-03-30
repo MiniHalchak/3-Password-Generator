@@ -1,28 +1,27 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
-  // var password = 
+// once the button is pressed it causes this function to run 
+function writePassword() { 
   generatePassword();
-  // var passwordText = document.querySelector("#password");
-
-  // passwordText.value = password;
 
 }
 
-// Add event listener to generate button
+// this is watching the button and seeing if it will be clicked or not
 generateBtn.addEventListener("click", writePassword);
-
+// The data that would be used as the password
 var characters = {
   specal: ["`","!","@","#","$","%","%","^","&","*","(",")","-","_","~","=","+","[","]","{","}","|",";",":","'",",","<",".",">","/","?"],
   numbers: ["1","2","3","4","5","6","7","8","9","0"],
   uppercase: ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Z"],
   lowercase: ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","z"],
 }
+// global vars
 var desiredselection = []
 var randompassword = []
+// the main function
 function generatePassword() {
+  // when the button is pushed the prompt and confirm chain starts
   let nunberofcharacters = prompt("Please enter number of characters you want your password to be");
   if (nunberofcharacters < 8 || nunberofcharacters > 128 ) {
     alert("Password Must contain at least 8 and no more than 128 characters");
