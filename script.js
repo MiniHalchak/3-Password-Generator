@@ -23,7 +23,9 @@ var randompassword = []
 function generatePassword() {
   // when the button is pushed the prompt and confirm chain starts
   let nunberofcharacters = prompt("Please enter number of characters you want your password to be");
-  if (nunberofcharacters < 8 || nunberofcharacters > 128 ) {
+  // check if the number is between 8 and 128
+  if (nunberofcharacters < 8 || nunberofcharacters > 128) {
+    // if not the chain stops at this message
     alert("Password Must contain at least 8 and no more than 128 characters");
   } else{ 
     var randompassword = [];
