@@ -1,15 +1,12 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
 // once the button is pressed it causes this function to run 
 function writePassword() { 
   generatePassword();
-
 }
-
 // this is watching the button and seeing if it will be clicked or not
 generateBtn.addEventListener("click", writePassword);
-// The data that would be used as the password
+// The data that would be used as the character in the password
 var characters = {
   specal: ["`","!","@","#","$","%","%","^","&","*","(",")","-","_","~","=","+","[","]","{","}","|",";",":","'",",","<",".",">","/","?"],
   numbers: ["1","2","3","4","5","6","7","8","9","0"],
