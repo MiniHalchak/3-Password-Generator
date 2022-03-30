@@ -54,6 +54,7 @@ function generatePassword() {
           document.getElementById("password").innerHTML = randompassword.join('');
         };
       } else {
+        // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.uppercase.concat(characters.numbers,characters.specal)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -72,7 +73,9 @@ function generatePassword() {
         };
       }
   } else {
+    // asking if you want your password to contain lowercase letters
     if (confirm("would you like your password to contain lowercase letters?")) {
+      // asking if you want your password to contain uppercase letters
       if (confirm("would you like your password to contain uppercase letters?")) {
         var desiredselection =characters.lowercase.concat(characters.uppercase,characters.specal)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -90,6 +93,7 @@ function generatePassword() {
           document.getElementById("password").innerHTML = randompassword.join('');
       }
     } else {
+      // asking if you want your password to contain uppercase letters
       if (confirm("would you like your password to contain uppercase letters?")) {
         var desiredselection =characters.uppercase.concat(characters.specal)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -108,8 +112,11 @@ function generatePassword() {
     }
   };
   } else {
+    // asking if you want your password to contain numbers
     if (confirm("would you like your password to contain numbers?")) {
+      // asking if you want your password to contain lowercase letters
       if (confirm("would you like your password to contain lowercase letters?")) {
+        // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.lowercase.concat(characters.uppercase,characters.numbers)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -126,6 +133,7 @@ function generatePassword() {
           document.getElementById("password").innerHTML = randompassword.join('');
         }
       } else {
+        // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.numbers.concat(characters.uppercase)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -143,7 +151,9 @@ function generatePassword() {
         }
       }
     } else {
+      // asking if you want your password to contain lowercase letters
       if (confirm("would you like your password to contain lowercase letters?")) {
+        // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.lowercase.concat(characters.uppercase)
           for (let x = 0; x < nunberofcharacters; x++) {
@@ -160,6 +170,7 @@ function generatePassword() {
           document.getElementById("password").innerHTML = randompassword.join('');
         }
       } else {
+        // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
           var desiredselection =characters.uppercase
           for (let x = 0; x < nunberofcharacters; x++) {
