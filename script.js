@@ -29,6 +29,7 @@ function generatePassword() {
     alert("Password Must contain at least 8 and no more than 128 characters");
     // if it is within that range it will continue down
   } else{ 
+    // here to reset the password for any reruns
     var randompassword = [];
     // asking if you want your password to contain specal characters
     if (confirm("would you like your password to contain specal characters?")) {
@@ -45,6 +46,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
           // the selection of characters that was chosen
@@ -54,6 +56,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         };
       } else {
@@ -66,6 +69,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
           // the selection of characters that was chosen
@@ -75,6 +79,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         };
       }
@@ -90,6 +95,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
       } else {
         // the selection of characters that was chosen
@@ -99,6 +105,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
       }
     } else {
@@ -111,6 +118,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
       } else {
         // the selection of characters that was chosen
@@ -120,6 +128,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
       }
     }
@@ -138,6 +147,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
           // the selection of characters that was chosen
@@ -147,6 +157,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         }
       } else {
@@ -159,6 +170,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
           // the selection of characters that was chosen
@@ -168,6 +180,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         }
       }
@@ -183,6 +196,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
           // the selection of characters that was chosen
@@ -192,6 +206,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         }
       } else {
@@ -204,6 +219,7 @@ function generatePassword() {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
+          // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
         } 
       }
