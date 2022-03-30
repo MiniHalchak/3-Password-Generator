@@ -38,15 +38,18 @@ function generatePassword() {
       if (confirm("would you like your password to contain lowercase letters?")) {
     // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase.concat(characters.uppercase,characters.numbers,characters.specal)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase.concat(characters.numbers,characters.specal)
-          console.log(desiredselection);
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -56,15 +59,18 @@ function generatePassword() {
       } else {
         // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.uppercase.concat(characters.numbers,characters.specal)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
+          // the selection of characters that was chosen
           var desiredselection =characters.numbers.concat(characters.specal)
-          console.log(desiredselection);
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -77,15 +83,18 @@ function generatePassword() {
     if (confirm("would you like your password to contain lowercase letters?")) {
       // asking if you want your password to contain uppercase letters
       if (confirm("would you like your password to contain uppercase letters?")) {
+        // the selection of characters that was chosen
         var desiredselection =characters.lowercase.concat(characters.uppercase,characters.specal)
+        // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
       } else {
+        // the selection of characters that was chosen
         var desiredselection =characters.lowercase.concat(characters.specal)
-          console.log(desiredselection);
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -95,14 +104,18 @@ function generatePassword() {
     } else {
       // asking if you want your password to contain uppercase letters
       if (confirm("would you like your password to contain uppercase letters?")) {
+        // the selection of characters that was chosen
         var desiredselection =characters.uppercase.concat(characters.specal)
+        // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
       } else {
+        // the selection of characters that was chosen
         var desiredselection =characters.specal
+        // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -118,14 +131,18 @@ function generatePassword() {
       if (confirm("would you like your password to contain lowercase letters?")) {
         // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase.concat(characters.uppercase,characters.numbers)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase.concat(characters.numbers)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -135,14 +152,18 @@ function generatePassword() {
       } else {
         // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.numbers.concat(characters.uppercase)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
+          // the selection of characters that was chosen
           var desiredselection =characters.numbers
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -155,14 +176,18 @@ function generatePassword() {
       if (confirm("would you like your password to contain lowercase letters?")) {
         // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase.concat(characters.uppercase)
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
           };
           document.getElementById("password").innerHTML = randompassword.join('');
         } else {
+          // the selection of characters that was chosen
           var desiredselection =characters.lowercase
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
@@ -172,7 +197,9 @@ function generatePassword() {
       } else {
         // asking if you want your password to contain uppercase letters
         if (confirm("would you like your password to contain uppercase letters?")) {
+          // the selection of characters that was chosen
           var desiredselection =characters.uppercase
+          // for loop that goes the amount for amount of desired characters
           for (let x = 0; x < nunberofcharacters; x++) {
             var random = Math.floor(Math.random() * desiredselection.length)
             randompassword.unshift(desiredselection[random]);
