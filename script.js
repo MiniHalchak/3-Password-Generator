@@ -17,9 +17,10 @@ function generatePassword() {
   // when the button is pushed the prompt and confirm chain starts
   let nunberofcharacters = prompt("Please enter number of characters you want your password to be");
   // check if the number is between 8 and 128
-  if (nunberofcharacters < 8 || nunberofcharacters > 128) {
+
+  if (nunberofcharacters < 8 || nunberofcharacters > 128 || isNaN(nunberofcharacters)) {
     // if not the chain stops at this message
-    alert("Password Must contain at least 8 and no more than 128 characters");
+    alert("Password Must be a number that is at least 8 and no more than 128 characters");
     // if it is within that range it will continue down
   } else{ 
     // here to reset the password for any reruns
@@ -229,7 +230,9 @@ function generatePassword() {
           };
           // sends new passcode to the html to display
           document.getElementById("password").innerHTML = randompassword.join('');
-        } 
+        } else {
+          alert("No characters selected please try again")
+        }
       }
     }
   }}
